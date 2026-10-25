@@ -1,0 +1,33 @@
+{
+  "name": "inpi-marcas",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261025.1",
+    "@types/bun": "latest",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.5",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@alchemy.run/cloudflare": "2.0.0-beta.84",
+    "@alchemy.run/domain": "2.0.0-beta.84",
+    "@alchemy.run/frontend-frameworks": "2.0.0-beta.84",
+    "@effect/platform-bun": "^4.0.6",
+    "@effect/platform-node": "^4.0.6",
+    "@fontsource-variable/archivo": "^5.3.0",
+    "@tanstack/react-query": "^5.104.5",
+    "alchemy": "^2.0.0-beta.84",
+    "effect": "^4.0.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "scripts": {
+    "dev": "node node_modules/alchemy/bin/alchemy.js dev",
+    "deploy": "node node_modules/alchemy/bin/alchemy.js deploy",
+    "destroy": "node node_modules/alchemy/bin/alchemy.js destroy",
+    "typecheck": "tsc"
+  }
+}
